@@ -3,10 +3,11 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    
 }
 
 body {
-    background-image: url(./images/pinkbackground.jpeg);
+    background: #cf9091;
     width: 100%;
 }
 
@@ -22,7 +23,7 @@ body {
 
 .app .h1 {
     font-size: 25px;
-    color: #fb6f92;
+    color: #cf9091;
     font-weight: 600;
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
@@ -36,7 +37,7 @@ body {
 
 .quiz .h2 {
     font-size: 18px;
-    color: #fb6f92;
+    color: #cf9091;
     font-weight: 600;
 
 }
@@ -47,7 +48,7 @@ body {
     color: #231414;
     font-weight: 700;
     width: 100%;
-    border: 1px solid #fb6f92;
+    border: 1px solid #cf9091;
     padding: 10px;
     margin: 10px 0;
     text-align: left;
@@ -59,7 +60,7 @@ body {
 }
 
 .btn:hover:not([disabled]){
-    background: #ffc2d1;
+    background: #cf9091;
     color: white ;
 }
 
